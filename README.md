@@ -1,6 +1,6 @@
 # Generative AI Frontend and Backend for [Zauber](https://zauber.com) 
 
-#ADD A COOL IMAGE FOR SCANNING!
+![alt text](Q1.jpg)
 
 This project involved developing a frontend interface and backend API for interacting with generative AI models. The main challenges included:
 
@@ -10,6 +10,11 @@ This project involved developing a frontend interface and backend API for intera
 - Enabling cross-origin requests between frontend and backend
 - Parsing and encoding request data properly for the ML models
 - Displaying API response images and handling errors 
+
+
+
+![alt text](Q2.jpg)
+
 
 ## Getting Started
 
@@ -38,6 +43,9 @@ bash deploy.sh
 
 This will start the Function runtime  by default  on http://localhost:7071.
 
+
+
+![alt text](Q3.jpg)
 ## Frontend Architecture
 
 The frontend allows users to compose image generation with 4 different pipelines such as :
@@ -76,6 +84,9 @@ The backend handles requests from the frontend and routes them to the actual ML 
 - Multipart form data parsing
 - Input data encoding to base64 when needed
 
+
+
+![alt text](Q4.jpg)
 ## Key Challenges
 
 - **CORS errors** - CORS had to be enabled on backend to allow cross-origin requests from frontend along with many testings for the right parameters.
