@@ -1,0 +1,1 @@
+docker build -t corsfunction . && docker run -p 80:80 corsfunction
